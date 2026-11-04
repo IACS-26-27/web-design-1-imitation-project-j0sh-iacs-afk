@@ -1,1 +1,20 @@
 /* CSS for your imitation here */
+
+/* AI-generated CSS starts here - GitHub Copilot
+	Student prompt: "Add an image and show where it goes in the page." */
+.image-placement {
+  width: min(600px, calc(100% - 32px));
+  margin: 24px auto;
+}
+
+.image-placement img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-placement figcaption {
+  margin-top: 8px;
+}
+
+/* AI-generated CSS ends here */
