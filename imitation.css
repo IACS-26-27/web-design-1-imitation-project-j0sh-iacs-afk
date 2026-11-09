@@ -27,14 +27,17 @@
 html {
   background-color: black;
 }
-main {
-  /* Hinkle helped set this up */
-  width: 208px;
-  height: 300px;
-  border: 8px solid rgb(255, 255, 91);
-  border-radius: 8px;
-  margin-inline: auto;
-  background-color: #073135;
+
+
+.card {
+  border: 5px solid gold;
+  padding: 8px;
+  background-color: #222;
+}
+
+.white-border {
+  border: 3px solid white;
+  padding: 3px;
 }
 
 
