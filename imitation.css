@@ -3,8 +3,8 @@
 /* AI-generated CSS starts here - GitHub Copilot
 	Student prompt: "Add an image and show where it goes in the page." */
 .image-placement {
-  width: min(600px, calc(100% - 32px));
-  margin: 24px auto;
+  width: 250px;
+  height:350px;
 }
 
 .image-placement img {
@@ -17,4 +17,24 @@
   margin-top: 8px;
 }
 
-/* AI-generated CSS ends here */
+.pokemon-pic {
+  width: 190px;
+  height: 120px;
+  border: 2px solid white;
+  margin: 19px auto;
+}
+
+html {
+  background-color: black;
+}
+main {
+  /* Hinkle helped set this up */
+  width: 208px;
+  height: 300px;
+  border: 8px solid rgb(255, 255, 91);
+  border-radius: 8px;
+  margin-inline: auto;
+  background-color: #073135;
+}
+
+
