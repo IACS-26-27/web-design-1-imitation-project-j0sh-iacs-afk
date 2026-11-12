@@ -1,1 +1,43 @@
 /* CSS for your imitation here */
+
+/* AI-generated CSS starts here - GitHub Copilot
+	Student prompt: "Add an image and show where it goes in the page." */
+.image-placement {
+  width: 250px;
+  height: 350px;
+}
+
+.image-placement img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-placement figcaption {
+  margin-top: 8px;
+}
+
+
+html {
+  background-color: rgb(0, 0, 0);
+}
+
+
+main {
+  /* Hinkle helped set this up */
+  position: relative;
+  isolation: isolate;
+  width: 208px;
+  height: 300px;
+  border: 8px solid rgb(255, 255, 91);
+  border-radius: 8px;
+  margin-inline: auto;
+  background-color: #073135;
+}
+
+.pokemon-pic {
+  width: 190px;
+  height: 120px;
+  border: 2px solid white;
+  margin: 19px auto;
+}
