@@ -1,1 +1,260 @@
 /* CSS for your imitation here */
+
+/* AI-generated CSS starts here - GitHub Copilot
+	Student prompt: "Add an image and show where it goes in the page." */
+.image-placement {
+  width: 250px;
+  height: 350px;
+}
+
+.image-placement img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-placement figcaption {
+  margin-top: 8px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.card {
+  width: 209px;
+  height: 291px;
+  padding: 5px;
+  background: #ffe65b;
+  border: 2px solid #ffdf39;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  color: white;
+  border-radius: 7px;
+
+  background-color: #07504d;
+
+  background-image:
+    radial-gradient(ellipse at 20% 20%,
+      rgba(70, 150, 140, 0.35),
+      transparent 45%),
+    radial-gradient(ellipse at 80% 75%,
+      rgba(0, 15, 20, 0.55),
+      transparent 55%),
+    repeating-radial-gradient(circle at 50% 50%,
+      rgba(120, 180, 170, 0.07) 0px,
+      rgba(120, 180, 170, 0.07) 1px,
+      transparent 2px,
+      transparent 5px),
+    linear-gradient(135deg,
+      #12635f,
+      #063b38,
+      #052b2b);
+}
+
+
+
+
+.header {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 2px;
+}
+
+.basic {
+  background: linear-gradient(#fff, #c6c6c6);
+  color: #222;
+  font-size: 6px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 3px 5px;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.name {
+  flex: 1;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hp {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.dark-symbol {
+  font-size: 12px;
+  color: #b6d9e9;
+  text-shadow: 1px 2px 3px black;
+}
+
+
+
+
+.artwork {
+  width: 100%;
+  height: 115px;
+  margin-top: 2px;
+
+  border: 3px solid #d7d7d7;
+  outline: 1px solid #777;
+
+  background: #333;
+  overflow: hidden;
+}
+
+.artwork img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+.pokemon-info {
+  height: 12px;
+
+  background: linear-gradient(to bottom,
+      #f5f5f5,
+      #c5c5c5);
+
+  color: #333;
+  border: 1px solid #888;
+
+  text-align: center;
+  font-size: 5px;
+  padding: 2px;
+}
+
+
+
+.attacks {
+  padding: 7px 3px 0;
+}
+
+.attack {
+  margin-bottom: 8px;
+}
+
+.attack-top {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 3px;
+}
+
+.energy {
+  font-size: 12px;
+  color: #eee;
+  white-space: nowrap;
+  text-shadow: 1px 2px 3px black;
+}
+
+.attack-name {
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.damage {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.attack p {
+  font-size: 7px;
+  line-height: 1.25;
+  margin: 2px 0 0;
+  color: #f5f5f5;
+}
+
+
+
+
+.stats {
+  height: 15px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: linear-gradient(to bottom,
+      #f6f6f6,
+      #c5c5c5);
+
+  border: 1px solid #999;
+  border-radius: 4px;
+
+  color: #222;
+  font-size: 6px;
+  font-weight: bold;
+}
+
+.stats div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  white-space: nowrap;
+}
+
+.stats span {
+  font-size: 7px;
+}
+
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3px;
+
+  margin-top: 4px;
+
+  font-size: 3px;
+  line-height: 1.2;
+}
+
+.artist {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.number {
+  grid-column: 1;
+  font-size: 3px;
+  font-weight: bold;
+}
+
+.description {
+  color: #eee;
+  font-size: 3px;
+  line-height: 1.25;
+}
+
