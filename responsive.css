@@ -9,6 +9,7 @@
     content: "Mobile";
     background-color: #c8787888;
   }
+
   /* End mobile label */
 }
 
@@ -21,6 +22,7 @@
     content: "Laptop";
     background-color: #45454588;
   }
+
   /* End laptop label */
 }
 
@@ -33,23 +35,10 @@
     content: "Wide";
     background-color: #00438888;
   }
+
   /* End widescreen label */
 }
 
 /* BACK TO CODE FOR ALL SIZES */
 
 /* Code to insert circular label label to show how responsive code is working on lower right */
-main::before {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-  color: #efefef;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  font-family: Helvetica, sans-serif;
-  font-size: 8pt;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
