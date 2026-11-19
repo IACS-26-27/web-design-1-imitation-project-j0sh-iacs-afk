@@ -105,6 +105,11 @@ body {
   font-weight: bold;
 }
 
+.amount-of-hp {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .dark-symbol {
   font-size: 12px;
   color: #b6d9e9;
