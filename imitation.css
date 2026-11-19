@@ -1,7 +1,6 @@
 /* CSS for your imitation here */
 
-/* AI-generated CSS starts here - GitHub Copilot
-	Student prompt: "Add an image and show where it goes in the page." */
+
 .image-placement {
   width: 250px;
   height: 350px;
@@ -102,7 +101,7 @@ body {
 }
 
 .hp {
-  font-size: 11px;
+  font-size: 4px;
   font-weight: bold;
 }
 
@@ -257,4 +256,3 @@ body {
   font-size: 3px;
   line-height: 1.25;
 }
-
